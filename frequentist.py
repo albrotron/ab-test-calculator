@@ -5,10 +5,10 @@ import matplotlib.ticker as mtick
 import seaborn as sns
 import streamlit as st
 
-roboto = {"fontname": "Roboto", "size": "12"}
-roboto_title = {"fontname": "Roboto", "size": "14", "weight": "bold"}
-roboto_bold = {"fontname": "Roboto", "size": "12", "weight": "bold"}
-roboto_small = {"fontname": "Roboto", "size": "10"}
+roboto = {"fontname": "sans-serif", "size": "12"}
+roboto_title = {"fontname": "sans-serif", "size": "14", "weight": "bold"}
+roboto_bold = {"fontname": "sans-serif", "size": "12", "weight": "bold"}
+roboto_small = {"fontname": "sans-serif", "size": "10"}
 
 
 class Frequentist(object):

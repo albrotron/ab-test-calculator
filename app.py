@@ -6,22 +6,21 @@ from frequentist import Frequentist
 
 st.set_page_config(
     page_title="AB Test Calculator",
-    page_icon="https://rfoxdata.co.uk/assets/favicon/favicon-32x32.png",
 )
 
-roboto = {"fontname": "Roboto", "size": "12"}
-roboto_title = {"fontname": "Roboto", "size": "14", "weight": "bold"}
-roboto_bold = {"fontname": "Roboto", "size": "12", "weight": "bold"}
-roboto_small = {"fontname": "Roboto", "size": "10"}
+roboto = {"fontname": "sans-serif", "size": "12"}
+roboto_title = {"fontname": "sans-serif", "size": "14", "weight": "bold"}
+roboto_bold = {"fontname": "sans-serif", "size": "12", "weight": "bold"}
+roboto_small = {"fontname": "sans-serif", "size": "10"}
 
 local_css("style.css")
 
-font = {"family": "sans-serif", "sans-serif": "roboto", "size": 11}
+font = {"family": "sans-serif", "size": 11}
 
 plt.rc("font", **font)
 
 """
-# AB test calculator
+# Miss Posh's AB test calculator
 
 _Enter your test data into the sidebar and choose either a Bayesian or
 Frequentist testing approach. Below is Bayesian by default._

@@ -41,7 +41,6 @@ nbconvert==7.8.0
 nbformat==5.9.2
 notebook==7.1.0
 numpy==1.26.4 
---only-binary=:all:
 packaging==23.2
 pandas==2.1.2
 pandocfilters==1.5.1

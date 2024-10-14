@@ -10,7 +10,7 @@ boto3==1.28.45
 botocore==1.31.45
 cachetools==5.3.1
 certifi==2023.7.22
-cffi==1.15.1
+cffi==1.16.0
 charset-normalizer==3.3.0  # Replaces chardet (deprecated)
 click==8.1.7
 colorama==0.4.6
@@ -40,7 +40,8 @@ mistune==3.0.2
 nbconvert==7.8.0
 nbformat==5.9.2
 notebook==7.1.0
-numpy==1.26.4 --only-binary=:all:
+numpy==1.26.4 
+--only-binary=:all:
 packaging==23.2
 pandas==2.1.2
 pandocfilters==1.5.1

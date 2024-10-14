@@ -8,7 +8,7 @@ bleach==6.0.0
 blinker==1.8.2
 cachetools==5.3.1
 certifi==2023.7.22
-cffi==1.16.0  # Updated version
+cffi==1.16.0
 charset-normalizer==3.3.0
 click==8.1.7
 colorama==0.4.6
@@ -29,7 +29,7 @@ jmespath==1.0.1
 jsonschema==4.19.0
 kiwisolver==1.4.7
 MarkupSafe==2.1.5
-matplotlib==3.9.2
+matplotlib==3.9.2  # Works well with Pillow >= 8
 mistune==3.0.2
 numpy==1.26.4
 packaging==23.2
@@ -37,7 +37,7 @@ pandas==2.1.2
 pandocfilters==1.5.1
 parso==0.8.3
 pickleshare==0.7.5
-Pillow==10.0.0 --only-binary=:all:
+Pillow==10.4.0  # Upgraded to the latest Pillow version
 plotly==5.16.0
 prompt-toolkit==3.0.39
 protobuf==4.24.4
@@ -54,7 +54,7 @@ requests==2.31.0
 scipy==1.11.3
 seaborn==0.12.2
 six==1.16.0
-streamlit==1.26.0
+streamlit==1.39.0  # Upgraded to the latest version of Streamlit
 terminado==0.17.1
 toml==0.10.2
 toolz==0.12.0
@@ -74,5 +74,3 @@ yarg==0.1.9
 setuptools>=65.5.1
 wheel==0.44.0
 distlib==0.3.7
-
-# Force rebuild to clear cache

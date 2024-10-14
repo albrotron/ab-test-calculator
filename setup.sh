@@ -10,3 +10,5 @@ port = \$PORT
 enableCORS = false
 " > ~/.streamlit/config.toml
 echo "Created config.toml with port: \$PORT"
+
+# Added this comment to force clear cache
